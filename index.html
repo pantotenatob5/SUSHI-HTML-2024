@@ -114,105 +114,158 @@
  </section>
 
  <section class="popular-foods" id="menu">
- <h2 class="popular-foods__title">
-  popular-foods
- </h2>
-<div class="popular-foods__filters sushi__hide-scrollbar">
-<button class="popular-foods__filter-btn active">all</button>
-<button class="popular-foods__filter-btn">
-  <img src="/assets/sushi-9.png">
-  sushi
-</button>
-<button class="popular-foods__filter-btn">
-  <img src="/assets/sushi-8.png" alt="sushi 8">
-  Ramen
-</button>
- 
-<button class="popular-foods__filter-btn">
-  <img src="/assets/sushi-7.png" alt="sushi7">
-  Udon
-</button>
+  <h2 class="popular-foods__title" data-aos="flip-up">
+    Popular Food / 人気の食べ物
+  </h2>
 
-<button class="popular-foods__filter-btn">
-  <img src="/assets/sushi-6.png" alt="sushi 6">
-  danggo
-</button>
-<button class="popular-foods__filter-btn">ALL</button>
- </div>
- <div class="popular-foods__catalogue" data-aos="fade-up">
-  <article class="popular-foods__card">
-    <img 
-    class="popular-foods__card-image"
-    src="assets/sushi-12.png"
-    alt="sushi 12"
-    >
-<h4 class="popular-foods__card-title">
-  Chezu sushi
-
-</h4>
-<div class="popular-foods__car-details flex-between">
-  <div class="popular-foods__card-rating">
-    <img src="assets/star.svg"/>
-    <p> 4.9</p>
-
+  <div
+    class="popular-foods__filters sushi__hide-scrollbar"
+    data-aos="fade-up"
+  >
+    <button class="popular-foods__filter-btn active">All</button>
+    <button class="popular-foods__filter-btn">
+      <img src="/assets/sushi-9.png" alt="sushi 9" />
+      Sushi
+    </button>
+    <button class="popular-foods__filter-btn">
+      <img src="/assets/sushi-8.png" alt="sushi 8" />
+      Ramen
+    </button>
+    <button class="popular-foods__filter-btn">
+      <img src="/assets/sushi-7.png" alt="sushi 7" />
+      Udon
+    </button>
+    <button class="popular-foods__filter-btn">
+      <img src="/assets/sushi-6.png" alt="sushi 6" />
+      Danggo
+    </button>
+    <button class="popular-foods__filter-btn">All</button>
   </div>
 
-</div>
-  
-   
+  <div class="popular-foods__catalogue" data-aos="fade-up">
+    <article class="popular-foods__card">
+      <img
+        class="popular-foods__card-image"
+        src="assets/sushi-12.png"
+        alt="sushi-12"
+      />
+      <h4 class="popular-foods__card-title">Chezu Sushi</h4>
 
-  </article>
-  <article class="popular-foods__card">
-    <img 
-    class="popular-foods__card-image"
-    src="assets/sushi-11.png"
-    alt="sushi 11"
-    >
-<h4 class="popular-foods__card-title">
-  Original Sushi
+      <div class="popular-foods__card-details flex-between">
+        <div class="popular-foods__card-rating">
+          <img src="assets/star.svg" alt="star" />
+          <p>4.9</p>
+        </div>
 
-</h4>
-<div class="popular-foods__car-details flex-between">
-  <div class="popular-foods__card-rating">
-    <img src="assets/star.svg"/>
-    <p> 4.9</p>
+        <p class="popular-foods__card-price">$21.00</p>
+      </div>
+    </article>
 
+    <article class="popular-foods__card active-card">
+      <img
+        class="popular-foods__card-image"
+        src="assets/sushi-11.png"
+        alt="sushi-11"
+      />
+      <h4 class="popular-foods__card-title">Original Sushi</h4>
+
+      <div class="popular-foods__card-details flex-between">
+        <div class="popular-foods__card-rating">
+          <img src="assets/star.svg" alt="star" />
+          <p>5.0</p>
+        </div>
+
+        <p class="popular-foods__card-price">$19.00</p>
+      </div>
+    </article>
+
+    <article class="popular-foods__card">
+      <img
+        class="popular-foods__card-image"
+        src="assets/sushi-10.png"
+        alt="sushi-10"
+      />
+      <h4 class="popular-foods__card-title">Ramen Legendo</h4>
+
+      <div class="popular-foods__card-details flex-between">
+        <div class="popular-foods__card-rating">
+          <img src="assets/star.svg" alt="star" />
+          <p>4.7</p>
+        </div>
+
+        <p class="popular-foods__card-price">$13.00</p>
+      </div>
+    </article>
   </div>
 
-</div>
-  
-   
+  <button class="popular-foods__button">
+    Explore Food
+    <img src="assets/arrow-right.svg" alt="arrow-right" />
+  </button>
+</section>
 
-  </article>
+<section class="trending" id="food">
+  <section class="trending-sushi">
+    <div class="trending__content" data-aos="fade-right">
+      <p class="sushi__subtitle">What’s Trending</p>
 
-  <article class="popular-foods__card">
-    <img 
-    class="popular-foods__card-image"
-    src="assets/sushi-10.png"
-    alt="sushi 10"
-    >
-<h4 class="popular-foods__card-title">
-  Ramen Legendo
+      <h3 class="sushi__title">Japonese Sushi</h3>
 
-</h4>
-<div class="popular-foods__car-details flex-between">
-  <div class="popular-foods__card-rating">
-    <img src="assets/star.svg"/>
-    <p> 4.9</p>
+      <p class="sushi__description">
+        Feel the taste of the most popular delicious Sushi here.
+      </p>
 
-  </div>
+      <ul class="trending__list flex-between">
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Make Sushi</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Oshizushi</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Uramaki Sushi</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Nigiri Sushi</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Temaki Sushi</p>
+        </li>
+        <li>
+          <div class="trending__icon flex-center">
+            <img src="assets/check.svg" alt="check" />
+          </div>
+          <p>Inari Sushi</p>
+        </li>
+      </ul>
+    </div>
 
-</div>
-  
-   
+   <div class="trending__image flex-center">
+    <img src="assets/sushi-5.png" alt="sushi-5" data-aos="fade-left">
+    <div class="trending__arrow trending__arrow-left" >
+      <img src="assets/arrow-vertical.svg" alt="arrow vertical">
+    </div>
+    <div class="trending__arrow trending__arrow-bottom">
+      <img src="assets/arrow-horizontal.svg" alt="arrow horizontal">
+    </div>
 
-  </article>
+   </div>
 
-
- </div>
-
- <section>
-
- <script src="/sushi/js/script.js" type="module"></script>   
+ <script src="js/script.js" type="module"></script>   
 </body>
 </html>
